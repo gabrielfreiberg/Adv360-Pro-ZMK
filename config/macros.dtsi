@@ -7,12 +7,6 @@ alf_mod: alf_mod{
     label = "Alfred or MOD";
     bindings = <&mo>, <&macro_ctr_cmd_al_sh_a>;
 };
-macro_od: macro_od{
-compatible = "zmk,behavior-macro";
-label = "macro_od";
-#binding-cells = <0>;
-bindings = ;
-};
 macro_ctr_cmd_al_sh_t: macro_ctr_cmd_al_sh_t{
 compatible = "zmk,behavior-macro";
 label = "macro_ctr_cmd_al_sh_t";
